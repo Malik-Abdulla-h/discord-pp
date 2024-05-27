@@ -1,7 +1,10 @@
+import { UserButton } from "@clerk/nextjs";
+
 export default function Home (){
   return (
     <div>
-      Still Me Nigga!
+      <UserButton
+       afterSignOutUrl = "/" />
   </div>
   )
 }
